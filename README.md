@@ -5,7 +5,7 @@ You need the gphoto2 package (http://gphoto.org/) installed on your system and a
 If you have it, download the script LiSnapCtrl.sh, put it in your photos folder and make it runnable (e.g. by running "chmod a+x LiSnapCtrl.sh").
 
 The script lets you choose if you want to take photos on command or at intervals and the file extension you are using, in case of intervals it also asks for the length of interval and number of photos to take (endless mode included).
-Other settings need to be (at least at the PTP mode Nikon D80, which is the only camera I tested) done on your camera.
+Other settings need to be (at least at the Nikon D80 communicating using PTP mode, which is the only camera I tested) done on your camera.
 The photos are named by date and time of shooting (using the date package) and stored in the same folder as the script.
 
 The communications with the user is carried in Czech language (as I didn't care about sharing this script at the beginning), but after each "echo" there is a comment with English translation, so you can modify it for yourself.
