@@ -1,5 +1,5 @@
 # LiSnapCtrl
-Simple bash script using gphoto2 package to remotely control shutter of your digital camera and download photos.
+Simple bash script using gphoto2 package to remotely control shutter of your digital camera via USB and download photos.
 
 You need the gphoto2 package (http://gphoto.org/) installed on your system and a camera that is supported (see if you can find it in the output of "gphoto2 --list-cameras").
 If you have it, download the script LiSnapCtrl.sh, put it in your photos folder and make it runnable (e.g. by running "chmod a+x LiSnapCtrl.sh").
