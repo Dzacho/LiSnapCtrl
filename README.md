@@ -3,6 +3,7 @@ Simple bash script using gphoto2 package to remotely control shutter of your dig
 
 You need the gphoto2 package (http://gphoto.org/) installed on your system and a camera that is supported (see if you can find it in the output of "gphoto2 --list-cameras").
 If you have it, download the script LiSnapCtrl.sh, put it in your photos folder and make it runnable (e.g. by running "chmod a+x LiSnapCtrl.sh").
+You will also need to change the key word on line 7 of the script in the part of checking connection with the camera.
 
 The script lets you choose if you want to take photos on command or at intervals and the file extension you are using, in case of intervals it also asks for the length of interval and number of photos to take (endless mode included).
 Other settings need to be (at least at the Nikon D80 communicating using PTP mode, which is the only camera I've tested) done on your camera.
